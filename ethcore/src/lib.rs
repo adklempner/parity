@@ -165,7 +165,7 @@ mod account_db;
 mod builtin;
 mod executive;
 mod externalities;
-mod blockchain;
+pub mod blockchain;
 mod factory;
 mod tx_filter;
 
